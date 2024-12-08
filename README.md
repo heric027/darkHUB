@@ -9,92 +9,92 @@ end
 _G.Settings = {
 
 	Main = {
-		["Auto Farm Level"] = false,
-		["Fast Auto Farm Level"] = false,
+		["Auto Farm Level"] = true,
+		["Fast Auto Farm Level"] = true,
 
 		--[Mob Aura]
 
 		["Distance Mob Aura"] = 1000, -- {Max : 5000} 
-		["Mob Aura"] = false,
+		["Mob Aura"] = true,
 
 		--[World 1]
-		["Auto New World"] = false,
-		["Auto Saber"] = false,
-		["Auto Pole"] = false,
+		["Auto New World"] = true,
+		["Auto Saber"] = true,
+		["Auto Pole"] = true,
 
-		["Auto Buy Ablility"] = false,
+		["Auto Buy Ablility"] = true,
 
 		--[World 2]
-		["Auto Third Sea"] = false,
-		["Auto Factory"] = false,
-		["Auto Factory Hop"] = false,
-		["Auto Bartilo Quest"] = false,
+		["Auto Third Sea"] = true,
+		["Auto Factory"] = true,
+		["Auto Factory Hop"] = true,
+		["Auto Bartilo Quest"] = true,
 
-		["Auto True Triple Katana"] = false,
-		["Auto Rengoku"] = false,
-		["Auto Swan Glasses"] = false,
-		["Auto Dark Coat"] = false,
-		["Auto Ectoplasm"] = false,
+		["Auto True Triple Katana"] = true,
+		["Auto Rengoku"] = true,
+		["Auto Swan Glasses"] = true,
+		["Auto Dark Coat"] = true,
+		["Auto Ectoplasm"] = true,
 
-		["Auto Buy Legendary Sword"] = false,
-		["Auto Buy Enchanment Haki"] = false,
+		["Auto Buy Legendary Sword"] = true,
+		["Auto Buy Enchanment Haki"] = true,
 
 		--[World 3]
-		["Auto Holy Torch"] = false,
-		["Auto Buddy Swords"] = false,
-		["Auto Farm Boss Hallow"] = false,
-		["Auto Rainbow Haki"] = false,
-		["Auto Elite Hunter"] = false,
-		["Auto Musketeer Hat"] = false,
-		["Auto Buddy Sword"] = false,
-		["Auto Farm Bone"] = false,
-		["Auto Ken-Haki V2"] = false,
-		["Auto Cavander"] = false,
-		["Auto Yama Sword"] = false,
-		["Auto Tushita Sword"] = false,
-		["Auto Serpent Bow"] = false,
-		["Auto Dark Dagger"] = false,
-		["Auto Cake Prince"] = false,
-		["Auto Dough V2"] = false,
-		["Auto Random Bone"] = false,
+		["Auto Holy Torch"] = true,
+		["Auto Buddy Swords"] = true,
+		["Auto Farm Boss Hallow"] = true,
+		["Auto Rainbow Haki"] = true,
+		["Auto Elite Hunter"] = true,
+		["Auto Musketeer Hat"] = true,
+		["Auto Buddy Sword"] = true,
+		["Auto Farm Bone"] = true,
+		["Auto Ken-Haki V2"] = true,
+		["Auto Cavander"] = true,
+		["Auto Yama Sword"] = true,
+		["Auto Tushita Sword"] = true,
+		["Auto Serpent Bow"] = true,
+		["Auto Dark Dagger"] = true,
+		["Auto Cake Prince"] = true,
+		["Auto Dough V2"] = true,
+		["Auto Random Bone"] = true,
 
 		--[For God Human]
 
-		["Auto Fish Tail Sea 1"] = false,
-		["Auto Fish Tail Sea 3"] = false,
-		["Auto Magma Ore Sea 2"] = false,
-		["Auto Magma Ore Sea 1"] = false,
-		["Auto Mystic Droplet"] = false,
-		["Auto Dragon Scales"] = false,
+		["Auto Fish Tail Sea 1"] = true,
+		["Auto Fish Tail Sea 3"] = true,
+		["Auto Magma Ore Sea 2"] = true,
+		["Auto Magma Ore Sea 1"] = true,
+		["Auto Mystic Droplet"] = true,
+		["Auto Dragon Scales"] = true,
 
 	},
 	FightingStyle = {
-		["Auto God Human"] = false,
-		["Auto Superhuman"] = false,
-		["Auto Electric Claw"] = false,
-		["Auto Death Step"] = false,
-		["Auto Fully Death Step"] = false,
-		["Auto SharkMan Karate"] = false,
-		["Auto Fully SharkMan Karate"] = false,
-		["Auto Dragon Talon"] = false,
+		["Auto God Human"] = true,
+		["Auto Superhuman"] = true,
+		["Auto Electric Claw"] = true,
+		["Auto Death Step"] = true,
+		["Auto Fully Death Step"] = true,
+		["Auto SharkMan Karate"] = true,
+		["Auto Fully SharkMan Karate"] = true,
+		["Auto Dragon Talon"] = true,
 	},
 	Boss = {
-		["Auto All Boss"] = false,
-		["Auto Boss Select"] = false,
+		["Auto All Boss"] = true,
+		["Auto Boss Select"] = true,
 		["Select Boss"] = {},
 
-		["Auto Quest"] = false,
+		["Auto Quest"] = true,
 	},
 	Mastery = {
 		["Select Multi Sword"] = {},
-		["Farm Mastery SwordList"] = false,
-		["Auto Farm Fruit Mastery"] = false,
-		["Auto Farm Gun Mastery"] = false,
+		["Farm Mastery SwordList"] = true,
+		["Auto Farm Fruit Mastery"] = true,
+		["Auto Farm Gun Mastery"] = true,
 		["Mob Health (%)"] = 15,
 	},
 	Configs = {
-		["Double Quest"] = false,
-		["Bypass TP"] = false,
+		["Double Quest"] = true,
+		["Bypass TP"] = true,
 		["Select Team"] = {"Pirate"}, --{Pirate,Marine}
 
 
@@ -107,7 +107,7 @@ _G.Settings = {
 		--[Misc Configs]
 		["Auto Haki"] = true,
 		["Distance Auto Farm"] = 20, --{Max : 50}
-		["Camera Shaker"] = false,
+		["Camera Shaker"] = true,
 
 		--[Skill Configs]
 		["Skill Z"] = true,
@@ -118,12 +118,12 @@ _G.Settings = {
 		--[Mob Configs]
 		["Show Hitbox"] = false,
 		["Bring Mob"] = true,
-		["Disabled Damage"] = false,
+		["Disabled Damage"] = true,
 
 	},
 	Stat = {
 		--[Auto Stats]
-		["Enabled Auto Stats"] = false,
+		["Enabled Auto Stats"] = true,
 		["Auto Stats Kaitun"] = false,
 
 		["Select Stats"] = {"Melee"}, --{Max Stats,Melee,Defense,Sword,Devil Fruit,Gun}
@@ -131,13 +131,13 @@ _G.Settings = {
 
 		--[Auto Redeem Code]
 
-		["Enabled Auto Redeem Code"] = false,
+		["Enabled Auto Redeem Code"] = true,
 		["Select Level Redeem Code"] = 1, --{Max : 2400}
 	},
 
 	Misc = {
-		["No Soru Cooldown"] = false,
-		["No Dash Cooldown"] = false,
+		["No Soru Cooldown"] = true,
+		["No Dash Cooldown"] = true,
 
 		["Infinities Geppo"] = false,
 		["Infinities Energy"] = false,
@@ -156,27 +156,27 @@ _G.Settings = {
 	},
 
 	Fruits = {
-		["Auto Buy Random Fruits"] = false,
-		["Auto Store Fruits"] = false,
+		["Auto Buy Random Fruits"] = true,
+		["Auto Store Fruits"] = true,
 
 		["Select Devil Fruits"] = {}, -- {"Bomb-Bomb","Spike-Spike","Chop-Chop","Spring-Spring","Kilo-Kilo","Spin-Spin","Kilo-Kilo","Spin-Spin","Bird: Falcon","Smoke-Smoke","Flame-Flame","Ice-Ice","Sand-Sand","Dark-Dark","Revive-Revive","Diamond-Diamond","Light-Light","Love-Love","Rubber-Rubber","Barrier-Barrier","Magma-Magma","Door-Door","Quake-Quake","Human-Human: Buddha","String-String","Bird-Bird: Phoenix","Rumble-Rumble","Paw-Paw","Gravity-Gravity","Dough-Dough","Shadow-Shadow","Venom-Venom","Control-Control","Soul-Soul","Dragon-Dragon"}
-		["Auto Buy Devil Fruits Sniper"] = false,
+		["Auto Buy Devil Fruits Sniper"] = true,
 	},
 
 	Raids = {
-		["Auto Raids"] = false,
+		["Auto Raids"] = true,
 
-		["Kill Aura"] = false,
-		["Auto Awakened"] = false,
-		["Auto Next Place"] = false,
+		["Kill Aura"] = true,
+		["Auto Awakened"] = true,
+		["Auto Next Place"] = true,
 
 		["Select Raids"] = {}, -- {"Flame","Ice","Quake","Light","Dark","String","Rumble","Magma","Human: Buddha","Sand","Bird: Phoenix","Dough"},
 	},
 
 	Combat = {
 		["Fov Size"] = 200,
-		["Show Fov"] = false,
-		["Aimbot Skill"] = false,
+		["Show Fov"] = true,
+		["Aimbot Skill"] = true,
 	},
 
 	HUD = {
@@ -345,7 +345,7 @@ while wait() do
 	if _G.AutoFarmLevelReal then
 		FastAttack = true
 	else
-		FastAttack = false
+		FastAttack = true
 	end
 end
 end)
@@ -544,13 +544,13 @@ local function QuestCheck()
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Point * CFrame.new(900,900,900)
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
 	
-		_G.StopTween = false
-		_G.StertScript = false
-		_G.Clip = false
+		_G.StopTween = true
+		_G.StertScript = true
+		_G.Clip = true
 		if game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip") then
 			game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip"):Destroy()
 		end
-		_G.Clip = false
+		_G.Clip = true
 	end
 	
 local function toTarget(...)
